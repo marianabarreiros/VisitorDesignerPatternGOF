@@ -22,8 +22,8 @@ public class RunApp {
     public static void main(String[] args) {
         Element professor = new Professor(1.90);
         Element professor1 = new Professor(2.00);
-        Element aluno = new Aluno(1.60, 8.6);
-        Element aluno1 = new Aluno(1.70, 5.6);
+        Element aluno = new Aluno(8.6, 1.60);
+        Element aluno1 = new Aluno(5.6, 1.70);
         
         List<Element> elementos = new ArrayList();
         elementos.add(aluno);
